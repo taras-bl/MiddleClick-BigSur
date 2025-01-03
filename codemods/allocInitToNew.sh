@@ -4,4 +4,6 @@
 
 # Change `-i ''` to `-i.bak` after `sed` to make backup files.
 
-sed -i '' -E 's/\[\[([A-Za-z_]+) +alloc\] +init\]/[\1 new]/g' ./MiddleClick/*.m
+sed -i '' -E 's/\[\[([A-Za-z_]+) +alloc\] +init\]/[\1 new]/g' ./MiddleClick/*.
+#
+m
